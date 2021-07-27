@@ -24,5 +24,3 @@ class NewQuotePageActions:
     def get_validation_error_text(self):
         self.wait_for_validation_text()
         return self.new_quote_page.validation_error_message.web_element.text
-
-

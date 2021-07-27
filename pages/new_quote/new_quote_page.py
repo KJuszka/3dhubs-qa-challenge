@@ -14,5 +14,3 @@ class NewQuotePage:
     @property
     def validation_error_message(self):
         return BasicElement(self.driver, UploadPageLocators.VALIDATION_MESSAGE)
-
-

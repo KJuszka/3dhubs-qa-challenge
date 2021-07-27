@@ -30,10 +30,3 @@ class DialogPageActions:
         if self.dialog_page.agree_data_button.is_visible():
             self.dialog_page.agree_data_button.web_element.click()
         return QuoteOverviewPageActions(self.driver)
-
-
-
-
-
-
-

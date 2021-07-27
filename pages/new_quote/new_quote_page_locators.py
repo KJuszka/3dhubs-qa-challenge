@@ -17,4 +17,3 @@ class EmailDialogLocators:
 
 class DataDialogLocators:
     AGREE_BUTTON = (By.XPATH, "//*[@id='mat-dialog-0']//button")
-
